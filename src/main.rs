@@ -3,6 +3,10 @@ use uuid::Uuid;
 pub mod bloomfilter;
 pub mod kvstore;
 pub mod binaryheap;
+pub mod models {
+    pub mod informationcriterion;
+    mod common;
+}
 /*
 Maybe for each key the value is a nested hashmap/list with a bloomfilter for each value or and for each table
  */
